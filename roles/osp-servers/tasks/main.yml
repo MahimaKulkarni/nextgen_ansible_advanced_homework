@@ -1,6 +1,7 @@
 ---
 
 # tasks file for osp.servers
+- name: Create frontend1
   os_server:
     cloud: openstack
     name: frontend1
